@@ -1,0 +1,259 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    font-family: 'Roboto Mono', monospace;
+   
+   
+}
+
+.container{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 5%;
+    box-shadow: 15px 15px 15px #0000003d;
+    z-index: 1;
+    background-image: linear-gradient(180deg, #ffffff 0%, #ff6265 2%, #ff0004 100%);
+    
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.nav_link  {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.nav__title {
+    width: 100px;
+    height: 100px;
+}
+
+.nav__link {
+    margin-left: 10%;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2rem;
+}
+
+
+.nav__links {
+    font-size:large;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar a{
+    
+    font-size: 1rem;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 500;
+    border:5px none;
+}
+
+.part{ 
+    padding-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin-top: 8%;
+}
+
+.parte{
+    padding-left: 20%; 
+    padding-top: 5rem;
+}
+
+.hijo{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 30%;
+    display: block;
+    border-radius: 3rem;
+    box-shadow: 20px 20px 20px #0000003d;
+}
+.part-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin-top: 8%;
+}
+
+.parte-2{
+    padding-right: 20%;
+  
+    
+}
+
+.hijo-2{
+position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 15%;
+    display: block;
+    border-radius: 3rem;
+    box-shadow: 20px 20px 20px #0000003d;
+    
+}
+.servicios-box h3
+{
+    padding-top: 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.7rem 0 0.4rem;
+
+   
+}
+
+.part-3{
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin-top: 8%;
+}
+
+.parte-3{
+    padding-left: 20%;
+   
+}
+
+.hijo{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 15%;
+    display: block;
+    border-radius: 3rem;
+}
+
+
+.hola{
+    text-align: center;
+    padding-top: 8rem;
+    
+}
+.tarjetas{
+    display: flex;
+    padding-top: 7rem;
+    justify-content: center;
+    text-align: center;
+    gap:2rem;
+}
+.tarj{
+    padding-top: 7rem;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:2rem;
+}
+.boton{
+  border:  solid 1px black;
+  width: 10rem;
+  height: 2rem;
+
+}
+.boton a{
+   color: #000000;
+}
+
+.servicios-content{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img{
+    width: 10rem;
+    height: 10rem;
+}
+
+
+.servicios-box
+{
+    padding: 20px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 3px 8px #00000044;
+    
+}
+
+.servicios-box h3
+{
+    padding-top: 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.7rem 0 0.4rem;
+   
+}
+
+.part-5{
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin-top: 8%;
+}
+
+.parte-5{
+    padding-left: 20%;
+    padding-top: 7rem;
+}
+
+.hijo{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 15%;
+    display: block;
+    border-radius: 3rem;
+}
+
+.part-4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin-top: 8%;
+}
+
+.parte-4{
+    padding-right: 20%;
+    padding-top: 7rem;
+
+}
+
+.hijo-4{
+position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 15%;
+    display: block;
+    border-radius: 3rem;
+    padding-bottom: 2rem;
+}
